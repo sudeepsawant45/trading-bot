@@ -1,0 +1,24 @@
+# Core data & analysis
+pandas>=2.0
+numpy>=1.24
+# pandas-ta removed — incompatible with Python 3.14 (numba dependency)
+# Using pure pandas calculations instead — works on all Python versions
+yfinance>=0.2.40
+
+# Visualization
+matplotlib>=3.7
+mplfinance>=0.12
+
+# Scheduling & utilities
+schedule>=1.2
+requests>=2.31
+python-dotenv>=1.0
+
+# Logging
+colorlog>=6.7
+
+# Testing
+pytest>=8.0
+
+# Timezone (Python 3.9+ has zoneinfo built-in, no extra install needed)
+# If Python < 3.9: pip install backports.zoneinfo
